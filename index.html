@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Favorite Things</h1>
+      <h4>Please tell us your five favorites . . . </h4>
+          <form id="favoriteThings">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="favoriteOne">What is your favorite season?</label>
+              <input type="text" class="form-control" id="favoriteOne" placeholder="Summer">
+            </div>
+            <div class="form-group">
+              <label for="favoriteTwo">What is your favorite movie?</label>
+              <input type="text" class="form-control" id="favoriteTwo" placeholder="When Harry Met Sally">
+            </div>
+            <div class="form-group">
+              <label for="favoriteThree">What is your favorite fruit?</label>
+              <input type="text" class="form-control" id="favoriteThree" placeholder="Cherries">
+            </div>
+            <div class="form-group">
+              <label for="favoriteFour">What is your favorite number?</label>
+              <input type="text" class="form-control" id="favoriteFour" placeholder="Five">
+            </div>
+            <div class="form-group">
+              <label for="favoriteFive">What type of food could you eat, daily?:</label>
+              <input type="text" class="form-control" id="favoriteFive" placeholder="Mexican">
+            </div>
+            <button type="submit" name="button">Submit</button>
+          </form>
+          <div class="answers">
+            <div class="option" id="list">
+              <p>
+                <br><span class="name"></span>, your favorite five are...
+              </p>
+              <ul id="unorderd">
+              </ul>
+            </div>
+          </div><!--answers-->
+      </div> <!--container-->
+  </body>
+</html>

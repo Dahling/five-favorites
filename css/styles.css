@@ -1,0 +1,25 @@
+
+ol, ul {
+  list-style: none;
+  font-size: 20px;
+  color: #FF0080;
+}
+
+p {
+  font-size: 20px;
+  color: #FF0080;
+}
+
+h1 {
+  text-align: center;
+  color: #FF0080;
+}
+
+h4 {
+  text-align: center;
+  color: #FF0080;
+}
+
+body {
+  background-image: url("../img/polka.jpeg");
+}
